@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = github:NixOS/nixpkgs/nixpkgs-unstable;
     polkadot = {
-      url = github:paritytech/polkadot/v0.8.29;
+      url = github:paritytech/polkadot/release;
       flake = false;
     };
   };
